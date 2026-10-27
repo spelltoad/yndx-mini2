@@ -1,0 +1,7 @@
+.venv/
+artifacts/
+*.asm.txt
+elf-inventory.txt
+xrefs.txt
+xrefs.json
+__pycache__/

@@ -1,0 +1,23 @@
+# Private device/owner data: never publish.
+/private/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local analysis only: proprietary firmware, environments and raw outputs.
+/research/**/artifacts/
+/research/**/.venv/
+/research/**/*.asm.txt
+/research/**/elf-inventory.txt
+/research/**/xrefs.txt
+/research/**/xrefs.json
+__pycache__/
+*.py[cod]
+
+# Editor / OS files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
